@@ -5,9 +5,7 @@
 [![Image Size](https://img.shields.io/microbadger/image-size/gotoeasy/vscode)](https://hub.docker.com/r/gotoeasy/vscode)
 [![Docker Pulls](https://img.shields.io/docker/pulls/gotoeasy/vscode)](https://hub.docker.com/r/gotoeasy/vscode)
 
-<br>
-
-在`gotoeasy/ubuntu-desktop`的基础上，安装`vscode`开发环境，以备不时之需
+在`gotoeasy/ubuntu-desktop`的基础上，安装`vscode`开发环境
 
 # 例子
 ```
@@ -20,7 +18,7 @@ docker run -d -p 22:22 -p 5900:5900 -e PASSWD=abcd1234 -e SIZE=1024x768 gotoeasy
 // 用docker-compose方式启动，参考配置docker-compose.yml
 docker-compose up
 ```
-没找到用docker脚本自动安装`vscode`插件的好方法，需自行按需安装插件
+没找到用docker脚本自动安装`vscode`插件的好方法，目前需自行按需安装插件
 
 
 # 内容
