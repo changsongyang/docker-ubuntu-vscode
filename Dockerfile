@@ -8,7 +8,6 @@ RUN apt-get update && \
     apt-get install -y \
 	apt-transport-https \
 	gpg \
-	unzip \
 	git 
 
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg && \
