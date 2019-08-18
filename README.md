@@ -1,0 +1,2 @@
+# docker-ubuntu-vscode
+在ubuntu系统上安装vscode开发环境的一个docker镜像，支持VNC远程连接使用
